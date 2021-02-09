@@ -11,10 +11,21 @@
       <div id="input_section">
         <label>Input: <input type="text" id="doround" /></label>
      </div>
-     <div id="dropdown_section">
-        <label><input type="text" id="dropdown" /></label>
-     </div>
+     <select id="dropdown_section">
+            <option value="upperCase">If input is a first name: Make the first character in a name uppercase, and the rest lowercase</option>
+            <option value="firstName">If input is a full name: Find the first name</option>
+            <option value="findLength">If input is a full name: Find the length of the first name</option>
+            <option value="findMiddle">If input is a full name: Find the middle name start and end position, and the middle name itself in a full name string</option>
+            <option value="fileName">If input is a filename: Check if a filename is .png or .jpg</option>
+            <option value="hidePassword">If input is a password: Hide a password with the correct numbers of *´s</option>
+            <option value="thirdUppercase">With any input: Make the third character in a name uppercase</option>
+            <option value="uppercaseHyphen">With any input: Make a character uppercase, if it follows a space or a hyphen</option>
+     </select>
 
+     <p>Output:</p>
+    <p id="output"></p>
+
+    <button>Generate output</button>
         
       
   </body>
