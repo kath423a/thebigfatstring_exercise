@@ -14,7 +14,7 @@ function showOutput() {
   //read userInput
 }
 
-// Hyphen vist af Peter
+// Space og Hyphen vist af Peter i undervisning (finder kun en space her, lav evt endnu en med -):
 const fullName = "justin flinch-fletchley";
 
 const firstSpace = fullName.indexOf(" ");
